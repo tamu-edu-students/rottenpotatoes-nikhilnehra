@@ -1,15 +1,15 @@
 # Seed the RottenPotatoes DB with some movies.
 more_movies = [
-  {:title => 'My Neighbor Totoro', :rating => 'G',
-    :release_date => '16-Apr-1988'},
-  {:title => 'Green Book', :rating => 'PG-13',
-    :release_date => '16-Nov-2018'},
-  {:title => 'Parasite', :rating => 'R',
-    :release_date => '30-May-2019'},
-  {:title => 'Nomadland', :rating => 'R',
-    :release_date => '19-Feb-2021'},
-  {:title => 'CODA', :rating => 'PG-13',
-    :release_date => '13-Aug-2021'}
+  {:title => 'Mission Impossible', :rating => 'PG-13', 
+   :description => 'An American agent, under false suspicion 
+   of disloyalty, must discover and expose the real spy without 
+   the help of his organization. Ethan Hunt (Tom Cruise) and his 
+   I.M.F. team go undercover to bring down the N.O.C. list, 
+   a list of every Agent and spy in the I.M.F.',
+    :release_date => '22-May-1996'},
+
+  
+  
 ]
 
 more_movies.each do |movie|
